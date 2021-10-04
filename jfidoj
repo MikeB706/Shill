@@ -1,0 +1,10 @@
+import requests
+import time
+
+Shill =['https://t.me/BabySafeMoon_V2']
+
+for Shill in Shill:
+    
+    base_url = 'https://api.telegram.org/bot2016611435:AAG_agNAAiBVJ2i5k11TuKpvlckoAdVpctA/sendMessage?chat_id=-1001484055848&text="{}"'.format(Shill)
+    requests.get(base_url)
+    time.sleep(5)
